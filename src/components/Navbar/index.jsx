@@ -8,7 +8,7 @@ import { FaArrowUpRightFromSquare,FaBarsStaggered } from 'react-icons/fa6';
 const Navbar = () => {
     return(
         <nav className='navbar_container'>
-            <div className='log_container'>
+            <div className='logo_container'>
                 <SiWebmoney/>
             </div>
             <div className='tab_group'>
@@ -30,7 +30,7 @@ const Navbar = () => {
                 }
             </div>
             <div className='nav_buttons_group'>
-                <button className='btn btn_primary'>Hire me < FaArrowUpRightFromSquare/></button>
+                <button className='btn btn_primary'>Hire me </button>
 
             </div>
         </nav>
