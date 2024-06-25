@@ -1,17 +1,28 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./Navbar.css"
 import { SiWebmoney } from "react-icons/si";
 import {menu} from "../../data"
 import { Link,animateScroll as scroll } from 'react-scroll';
-import { FaArrowUpRightFromSquare,FaBarsStaggered } from 'react-icons/fa6';
+import { FaBarsStaggered } from 'react-icons/fa6';
+import { FaTimes } from 'react-icons/fa'; 
 
 const Navbar = () => {
+    const [showSidebar,setShowSidebar] = useState(false);
     return(
         <nav className='navbar_container'>
+            {
+    showSidebar && (
+        <div className='overlay' onClick={() => setShowSidebar(!showSidebar)}></div>
+    )
+}
+
             <div className='logo_container'>
                 <SiWebmoney/>
             </div>
-            <div className='tab_group'>
+            <div className={`tab_group ${showSidebar ? 'show' : ''}`}>
+                <span className="icon_container close_btn" onClick={() => setShowSidebar(!showSidebar)}>
+                    <FaTimes/>
+                </span>
                 {
                     menu.map((list,index)=>(
                         <Link
@@ -31,8 +42,8 @@ const Navbar = () => {
             </div>
             <div className='nav_buttons_group'>
                 <button className='btn btn_primary'>Hire me </button>
-
-            </div>
+                <FaBarsStaggered className='menu' onClick={() => setShowSidebar(!showSidebar)} />
+                </div>
         </nav>
     )
 }
