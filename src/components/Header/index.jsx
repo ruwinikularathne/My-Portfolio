@@ -7,7 +7,7 @@ const Header = () => {
         <header id='header' className='blur-effect'>
             <div className="stroke_text intro_text">Hello</div>
             <div className="section_wrapper header_container">
-                <div className="column intro_container blur_effect">
+                <div className="column intro_container blur-effect">
                     <div className="header_info">
                         <div className="header_info_top">
                             Hello! I'm <span className='color_primary'>Ruwini Kularathne</span>
@@ -16,6 +16,7 @@ const Header = () => {
                               <h1 className='primary_title header_title'>I'm a Web Developer</h1>
                         </div>
                         <div className="header_info_bottom">
+                            <button className='btn'>Download CV</button>
                             <button className='btn'>Contact Me</button>
                         </div>
                     </div>

@@ -1,8 +1,7 @@
 
 ------------------------------------------------------------------------------------
-Intro title: I'M A WEB DEVELOPER
-Intro description: I dissect intricate user experience challenges to engineer 
-integrity-focused solutions that resonate with billions of users.
+Intro title: Hello, I'm Ruwini Kularathne. I'm A Web Developer
+Intro description: 
 ------------------------------------------------------------------------------------
 
 
