@@ -72,8 +72,8 @@
 }
 
 #header .header_title{
-    font-size: 62px;
-    font-weight: 900;
+    font-size: 52px;
+    font-weight: 500;
 }
 
 #header .header_description{
@@ -105,6 +105,23 @@
     width: 100%;
     height: 50%;
     background: linear-gradient(transparent,var(--color-ui-1));
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: -250px;
+}
+
+.social-icons a {
+    color: var(--color-muted);
+    transition: var(--transition);
+}
+
+.social-icons a:hover {
+    color: var(--color-primary);
 }
 
 @media (max-width: 100px) {

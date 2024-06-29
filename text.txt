@@ -1,7 +1,7 @@
 
 ------------------------------------------------------------------------------------
-Intro title: Hello, I'm Ruwini Kularathne. I'm A Web Developer
-Intro description: 
+Header Info: Hello, I'm Ruwini Kularathne. 
+Header Info Middle: I'm A Web Developer, UI/UX Designer
 ------------------------------------------------------------------------------------
 
 

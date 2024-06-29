@@ -30,6 +30,7 @@
     scrollbar-color: var(--color-primary) var(--color-secondary);
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
+    scrollbar-width: thin;
     list-style: none;
     border: 0;
     outline: 0;
