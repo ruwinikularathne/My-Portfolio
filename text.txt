@@ -7,10 +7,11 @@ Header Info Middle: I'm A Web Developer, UI/UX Designer
 
 ------------------------------------------------------------------------------------
 About Me:
-Experienced Full Stack Developer with a passion for creating dynamic, intuitive, and
-responsive applications. Proficient in multiple programming languages and frameworks, 
-as well as database design and management. Strong problem-solving and analytical skills, 
-and a track record of delivering high-quality code on time and on budget.
+I am an aspiring Web Developer passionate about continuous learning and growth with 
+strong organizational and communication skills. My ability to adapt and collaborate 
+effectively with teams makes me a reliable and proactive contributor. I am passionate 
+about pursuing opportunities in the IT industry to further enhance my skills and knowledge. 
+If you're in search of Fullstack development and UI/UX design services, feel free to reach out.
 ------------------------------------------------------------------------------------
 
 
