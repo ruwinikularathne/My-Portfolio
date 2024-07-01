@@ -7,7 +7,7 @@ const About = () => {
         
         <section id='about'>
             <div className="section_wrapper about_container">
-                <div className="me_containerblur_effect">
+                <div className="me_container blur-effect">
                     <div className="photo_container">
                         <img src={profile2} alt=""/>
                     </div>
