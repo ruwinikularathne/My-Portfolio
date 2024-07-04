@@ -7,11 +7,10 @@ Header Info Middle: I'm A Web Developer, UI/UX Designer
 
 ------------------------------------------------------------------------------------
 About Me:
-I am an aspiring Web Developer passionate about continuous learning and growth with 
-strong organizational and communication skills. My ability to adapt and collaborate 
-effectively with teams makes me a reliable and proactive contributor. I am passionate 
-about pursuing opportunities in the IT industry to further enhance my skills and knowledge. 
-If you're in search of Fullstack development and UI/UX design services, feel free to reach out.
+I am an aspiring Web Developer passionate about continuous learning and growth. 
+My ability to adapt and collaborate effectively with teams makes me a reliable 
+and proactive contributor. I am passionate about pursuing opportunities in the 
+IT industry to further enhance my skills and knowledge. 
 ------------------------------------------------------------------------------------
 
 

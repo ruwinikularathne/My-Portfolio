@@ -15,10 +15,10 @@ const About = () => {
                     <h2 className="primary_title">About Me</h2>
                     <h1 className="title">I am <span className="color_primary">Ruwini Kularathne</span></h1>
                     <p className="text_muted description">
-                        I am an aspiring Web Developer passionate about continuous learning and growth with 
-                        strong organizational and communication skills. My ability to adapt and collaborate 
-                        effectively with teams makes me a reliable and proactive contributor. I am passionate 
-                        about pursuing opportunities in the IT industry to further enhance my skills and knowledge.
+                    I am an aspiring Web Developer passionate about continuous learning and growth. 
+                    My ability to adapt and collaborate effectively with teams makes me a reliable 
+                    and proactive contributor. I am passionate about pursuing opportunities in the 
+                    IT industry to further enhance my skills and knowledge. 
                     </p>
                     <div className="metrics_container">
                         <div className="metric">
