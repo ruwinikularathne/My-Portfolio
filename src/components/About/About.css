@@ -55,6 +55,14 @@
     color:  var(--color-muted);
 }
 
+
+#about .about_info_bottom{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
 @media (max-width: 850px) {
     #about .about_container {
         grid-template-columns: 100%;

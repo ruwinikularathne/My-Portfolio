@@ -34,6 +34,12 @@ const About = () => {
                             <p>Achievements</p>
                         </div>
                     </div>
+
+                    <div className="about_info_bottom">
+                            <button className='btn'>Download CV</button>
+                            <button className='btn'>Contact Me</button>
+                        </div>
+                        
                 </div>
             </div>
         </section>
