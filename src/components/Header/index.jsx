@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Header.css"
 import {profile1} from "../../images";
-import { FaGithub, FaLinkedin, FaInstagram } from 'react-icons/fa'; 
+import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'; 
 import Typewriter from 'typewriter-effect';
 
 const Header = () => {
@@ -33,6 +33,9 @@ const Header = () => {
                                 </a>
                                 <a href="https://www.instagram.com/ruwini_kularathne/?igsh=MWtyN2hwemxvOXk5bQ%3D%3D" target="_blank" rel="noopener noreferrer">
                                     <FaInstagram size={30} />
+                                </a>
+                                <a href="https://www.facebook.com/ruwini.kularathne?mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+                                    <FaFacebook size={30} />
                                 </a>
                             </div>
                         <div className="header_info_bottom">
