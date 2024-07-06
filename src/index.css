@@ -101,6 +101,9 @@ img{
     cursor: pointer;
 }
 
+.btn:hover{
+    background: var(--color-primary-dark);
+}
 
 .btn_primary{
     background: var(--gradient-1);

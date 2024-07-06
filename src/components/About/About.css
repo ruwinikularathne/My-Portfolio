@@ -58,6 +58,7 @@
 
 #about .about_info_bottom{
     margin-top: 40px;
+    margin-left: 180px;
     display: flex;
     align-items: center;
     gap: 30px;
@@ -70,14 +71,13 @@
     display: inline-block;
     font-size: 14px;
     font-weight: 500;
-    background: var(--color-primary);
+    background: var(--color-ui-1);
     text-align: center;
     cursor: pointer;
-    transition: background 0.3s ease;
 }
 
 #about .about_btn:hover {
-    background: var(--color-primary-dark);
+    background: var(--color-ui-2);
 }
 
 @media (max-width: 850px) {
