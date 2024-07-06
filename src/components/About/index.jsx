@@ -36,8 +36,8 @@ const About = () => {
                     </div>
 
                     <div className="about_info_bottom">
-                            <button className='btn'>Download CV</button>
-                            <button className='btn'>Contact Me</button>
+                            <button className='about_btn'>Download CV</button>
+                            <button className='about_btn'>Contact Me</button>
                         </div>
                         
                 </div>
