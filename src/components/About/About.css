@@ -80,6 +80,31 @@
     background: var(--color-ui-2);
 }
 
+#about .metric h3 {
+    font-size: 2em;
+    color: var(--color-primary);
+}
+
+#about .metric h3::after {
+    content: "+";
+    color: var(--color-text); 
+}
+
+#about .metric:nth-child(1) h3::after {
+    content: "+";
+    color: var(--color-text); 
+}
+
+#about .metric:nth-child(2) h3::after {
+    content: "+";
+    color: var(--color-text); 
+}
+
+#about .metric:nth-child(3) h3::after {
+    content: "+";
+    color: var(--color-text); 
+}
+
 @media (max-width: 850px) {
     #about .about_container {
         grid-template-columns: 100%;
@@ -89,16 +114,17 @@
         display: none;
     }
 
-    /*
-    #about .btn {
-        display: block;
-        margin: auto;
-        width: 100%;
-        max-width: 400px; 
+    #about .about_info_bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
     }
-    */
 
-    
+    #about .about_btn {
+        width: 100%;
+        max-width: 400px;
+        text-align: center;
+    }
 
     #about .metrics_container {
         flex-direction: column;
