@@ -95,6 +95,7 @@
     position: relative;
     margin: auto;
     overflow: hidden;
+    top: -60px
 }
 
 #header .profile_photo_container::after{

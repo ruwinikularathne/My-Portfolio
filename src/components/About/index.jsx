@@ -1,6 +1,6 @@
 import React from 'react';
 import './About.css';
-import { profile2 } from '../../images';
+import { nextsec } from '../../images';
 
 const About = () => {
     return (
@@ -8,7 +8,7 @@ const About = () => {
             <div className="section_wrapper about_container">
                 <div className="me_container blur-effect">
                     <div className="photo_container">
-                        <img src={profile2} alt="" />
+                        <img src={nextsec} alt="" />
                     </div>
                 </div>
                 <div className="section_header">

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import {profile1} from "../../images";
+import {homeru} from "../../images";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'; 
 import Typewriter from 'typewriter-effect';
 
@@ -46,7 +46,7 @@ const Header = () => {
                 </div>
                 <div className="column profile_wrapper">
                      <div className="profile_photo_container">
-                        <img src={profile1} className='profile_photo' alt="" />
+                        <img src={homeru} className='profile_photo' alt="" />
                     </div>
                 </div>
              </div>
