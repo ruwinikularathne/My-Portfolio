@@ -64,7 +64,7 @@ const Projects = () => {
     return (
         <section id="projects">
             <div className="section_header center">
-                <h2 className="primary_title">Projects</h2>
+                <h2 className="primary_title">My Projects</h2>
             </div>
             <div className="section_wrapper project_container">
                 {projects.map((project, index) => (
