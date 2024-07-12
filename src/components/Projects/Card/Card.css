@@ -68,6 +68,8 @@
 
 .card .card_details .card_details_middle .tech_stack {
     margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .card .card_details .card_details_middle .tech_button {
@@ -82,18 +84,21 @@
 
 .card .card_details .card_details_middle .description {
     font-size: 14px;
+    margin-top: 1rem;
 }
 
 .card .card_details .card_details_bottom {
     padding: 1rem 0;
-    flex: 1;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+}
+
+.card .card_details .card_details_bottom .project_links {
+    display: flex;
+    gap: 1rem;
 }
 
 .card .card_details .card_details_bottom .project_links a {
-    margin: 0 0.3rem;
     color: var(--color-text);
     transition: color 200ms;
 }

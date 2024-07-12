@@ -21,12 +21,11 @@ export const menu = [
 export const projects = [
     { 
       id:1,
-      title: 'AI Powered School',
+      title: 'MeterMate',
       image: 'https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png',
       category:"UI/UX",
       data:{
-         description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                       learning experience. `,
+         description: `A mobile app for self-reading System to electricity bill. `,
          demoLink: "https://google.com/",
       },
       stack:[
@@ -39,12 +38,12 @@ export const projects = [
     },
     {
       id:2,
-      title: 'E-Commerce Application',
+      title: 'My Portfolio',
       image: 'https://cdn.dribbble.com/userupload/8002230/file/original-c8eec16edea4d5c836b2bfabe7fbaa5a.jpg',
       category:"Web",
       data:{
-        description:`Enhance your online shopping experience with our E-Commerce Application 
-        UI design project.`,
+        description:`A Web platform to showcase my professional background,
+qualifications, and projects.`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -71,12 +70,12 @@ export const projects = [
     },
     {
       id:3,
-      title: 'Robotic Engineering Web Application',
+      title: 'Weather App',
       image: 'https://s3-alpha.figma.com/hub/file/5101537097/c4a1ed2c-4ab9-43fb-a248-d7ac6b0c3161-cover.png',
       category:"Web",
       data:{
-        description: `Unlock the future of robotics with our Robotic Engineering Web Application
-        project.`,
+        description: `An app to identify weather information of a specific location.
+`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -98,18 +97,6 @@ export const projects = [
           name:"MongoDB",
           icon: <SiMongodb/>,
           iconColor:"limegreen",
-        },
-        {
-          name:"MongoDBT",
-          icon: <SiMongodb/>,
-        },
-        {
-          name:"MongoDBT",
-          icon: <SiMongodb/>,
-        },
-        {
-          name:"MongoDBT",
-          icon: <SiMongodb/>,
         },
       ]
     },
@@ -195,86 +182,6 @@ export const projects = [
     },
   ]
   
-
-
-export const experience = [
-    {
-        title:"UI/UX",
-        data:[
-            {
-                skill:"Figma",
-                level:"Experienced",
-            },
-            {
-                skill:"Sketch",
-                level:"Intermediate",
-            },
-            {
-                skill:"XD",
-                level:"Intermediate",
-            },
-        ]
-    },
-    {
-        title:"Frontend Development",
-        data:[
-            {
-                skill:"HTML",
-                level:"Experienced",
-            },
-            {
-                skill:"CSS",
-                level:"Experienced",
-            },
-            {
-                skill:"JavaScript",
-                level:"Experienced",
-            },
-            {
-                skill:"Tailwind",
-                level:"Intermediate",
-            },
-            {
-                skill:"Bootstrap",
-                level:"Experienced",
-            },
-            {
-                skill:"React",
-                level:"Experienced",
-            },
-            {
-                skill:"React Native",
-                level:"Experienced",
-            },
-        ]
-    },
-    {
-        title:"Backend Development",
-        data:[
-            {
-                skill:"Node JS",
-                level:"Experienced",
-            },
-            {
-                skill:"MangoDB",
-                level:"Intermediate",
-            },
-            {
-                skill:"PHP",
-                level:"Experienced",
-            },
-            {
-                skill:"Python",
-                level:"Intermediate",
-            },
-            {
-                skill:"MySQL",
-                level:"Experienced",
-            },
-        ]
-    },
-]
-
 
 export const socialHandles = [
   {
