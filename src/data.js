@@ -26,10 +26,7 @@ export const projects = [
       category:"UI/UX",
       data:{
          description: `Transforming education with AI, our School UI Design project revolutionizes the 
-                       learning experience. Seamlessly integrating intelligent features, personalized interfaces, 
-                       and intuitive navigation, our design empowers educators and students alike. Experience 
-                       innovation at its finest as we pave the way for a smarter, more efficient educational 
-                       journey.`,
+                       learning experience. `,
          demoLink: "https://google.com/",
       },
       stack:[
@@ -47,10 +44,7 @@ export const projects = [
       category:"Web",
       data:{
         description:`Enhance your online shopping experience with our E-Commerce Application 
-        UI design project. Seamlessly blending aesthetics with functionality, our intuitive 
-        interface offers easy navigation, personalized recommendations, and secure 
-        transactions. Elevate your digital storefront and captivate customers with a visually 
-        stunning design tailored to your brand`,
+        UI design project.`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -82,10 +76,7 @@ export const projects = [
       category:"Web",
       data:{
         description: `Unlock the future of robotics with our Robotic Engineering Web Application
-        project. Seamlessly integrating cutting-edge technology, data analytics, 
-        and collaborative tools, our platform empowers engineers to design, simulate, 
-        and optimize robotic systems. Experience innovation at its peak as we redefine the 
-        boundaries of robotic engineering.`,
+        project.`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -128,8 +119,7 @@ export const projects = [
       image: 'https://miro.medium.com/v2/resize:fit:1400/1*6iO0wm8q4cByvxY6kB9WiQ.png',
       category:"Apps",
       data:{
-        description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate in real-time, and streamline workflows effortlessly. With customizable features and robust reporting, stay organized and efficient.
-                       Elevate your project management experience and achieve success with ease.`,
+        description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate `,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -160,7 +150,7 @@ export const projects = [
       image: 'https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png',
       category:"UI/UX",
       data:{
-        description: `Experience banking at your fingertips with our sleek Mobile Bank app design. Seamlessly manage your finances on-the-go with intuitive navigation, secure transactions, and personalized insights. Enjoy a modern interface that prioritizes convenience and accessibility, revolutionizing your banking experience.`,
+        description: `Experience banking at your fingertips with our sleek Mobile Bank app design.`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -178,11 +168,7 @@ export const projects = [
       category:"Apps",
       data:{
         description: `Elevate engagement and knowledge retention with our Quiz App 
-                      Development project. Seamlessly crafted for interactive learning 
-                      experiences, our app offers customizable quizzes, real-time feedback, 
-                      and captivating visuals. Empower users to test their knowledge anytime,
-                       anywhere, fostering a dynamic learning environment tailored to their 
-                       needs.`,
+                      Development project.`,
         demoLink: "https://google.com/",
       },
       stack:[

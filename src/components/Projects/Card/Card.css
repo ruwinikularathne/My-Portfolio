@@ -64,9 +64,20 @@
 .card .card_details .card_details_middle {
     padding-bottom: 1rem;
     border-bottom: 1px solid rgba(var(--card-border-rgb), 0.15);
-    height: 160px;
-    overflow-x: hidden;
-    overflow-y: auto;
+}
+
+.card .card_details .card_details_middle .tech_stack {
+    margin-bottom: 1rem;
+}
+
+.card .card_details .card_details_middle .tech_button {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    margin: 0.2rem;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    border-radius: var(--border-radius-1);
+    font-size: 0.8rem;
 }
 
 .card .card_details .card_details_middle .description {
@@ -77,54 +88,16 @@
     padding: 1rem 0;
     flex: 1;
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
-}
-
-/* Stack */
-.card .stack_container {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    gap: 1rem;
-}
-.card .stack_container .stack_left {
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    padding: 0 0.5rem;
-    border-radius: var(--border-radius-2);
-    display: flex;
     align-items: center;
 }
 
-.card .stack_container .stack_right {
-    flex: 1;
+.card .card_details .card_details_bottom .project_links a {
+    margin: 0 0.3rem;
+    color: var(--color-text);
+    transition: color 200ms;
 }
 
-.card .stack_container .stack_right .stack_box_container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.5rem;
+.card .card_details .card_details_bottom .project_links a:hover {
+    color: var(--color-primary);
 }
-
-.card .stack_container .stack_right .stack_box_container
-.stack_box .stack_icon_container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 5px;
-    font-size: 14px;
-}
-
-.card .stack_container .stack_right .stack_box_container
-.stack_box .stack_icon_container .stack_icon {
-    display: flex;
-    align-items: center;
-}
-
-.card .stack_container .stack_right .stack_box .stack_view_more {
-    border-radius: var(--border-radius-2);
-    background: rgba(var(--card-rgb), 0.1);
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    padding: 0.5rem;
-}
-
