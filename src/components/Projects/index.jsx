@@ -14,7 +14,7 @@ const Projects = () => {
         <section id='projects'>
             <div className="section_wrapper projects_container">
                 <div className="section_header center">
-                    <h2 className="primary_title">Projects</h2>
+                    <h2 className="primary_title">My Projects</h2>
                 </div>
                 <div className="card_container">
                     {displayableProjects.map((project, index) => (

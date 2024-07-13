@@ -17,8 +17,11 @@ const Skills = () => {
 
     return (
         <section id='skills'>
+            <div className="section_header center">
+                    <h2 className="primary_title">My Skills</h2>
+                </div>
             <div className="section_wrapper skills_container">         
-            <h2 className="primary_title">Skills</h2>
+            
                 <div className="skills_grid">
                     {skills.map((skill, index) => (
                         <div key={index} className="skill_card">
