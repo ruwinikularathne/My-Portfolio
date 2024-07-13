@@ -1,0 +1,48 @@
+#footer {
+    background: var(--color-ui-2);
+    padding: 40px 20px;
+    text-align: center;
+    color: var(--color-text);
+}
+
+.footer_content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.contact_info p,
+.social_links a {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text);
+    font-size: 1rem;
+}
+
+.contact_info p svg,
+.social_links a svg {
+    margin-right: 10px;
+}
+
+.social_links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social_links a {
+    margin: 0 10px;
+    color: var(--color-text);
+    transition: color var(--transition);
+}
+
+.social_links a:hover {
+    color: var(--color-primary);
+}
+
+.copyright p {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: var(--color-muted);
+}
