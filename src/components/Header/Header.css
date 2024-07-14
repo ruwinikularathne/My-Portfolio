@@ -1,16 +1,17 @@
-#header{
+#home{
     overflow: hidden;
     position: relative;
+    padding-top: 100px;
 }
 
-#header.blur-effect::before{
+#home.blur-effect::before{
     top: 0;
     right: 0;
     margin-right: -5%;
     margin-top: -5%;
 }
 
-#header.blur-effect::after {
+#home.blur-effect::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -25,14 +26,14 @@
     margin-bottom: 5%;
 }
 
-#header .header_container{
+#home .header_container{
     position: relative;
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-#header .intro_text{
+#home .intro_text{
     font-size: 200px;
     position: absolute;
     top: 120px;
@@ -44,16 +45,16 @@
     text-transform: uppercase;
 }
 
-#header .column{
+#home .column{
     position: relative;
     z-index: 1;
 }
 
-#header .intro_container{
+#home .intro_container{
     width: 550px;
 }
 
-#header .intro_container.blur-effect::before{
+#home .intro_container.blur-effect::before{
     bottom: 0;
     top: 0;
     width: 100px;
@@ -62,43 +63,43 @@
     margin-bottom: -5%;
 }
 
-#header .profile_wrapper{
+#home .profile_wrapper{
     flex: 1;
 }
 
-#header .header_info_top{
+#home .header_info_top{
     font-size: 25px;
     font-weight: 500;
 }
 
-#header .header_title{
+#home .header_title{
     font-size: 52px;
     font-weight: 500;
 }
 
-#header .header_description{
+#home .header_description{
     font-size: 15px;
     font-weight: 500;
     margin: 20px 0;
 }
 
-#header .header_info_bottom{
+#home .header_info_bottom{
     margin-top: 40px;
     display: flex;
     align-items: center;
     gap: 30px;
 }
 
-#header .profile_photo_container{
+#home .profile_photo_container{
     width: 400px;
     max-width: 100%;
     position: relative;
     margin: auto;
     overflow: hidden;
-    top: -60px
+    top: -80px
 }
 
-#header .profile_photo_container::after{
+#home .profile_photo_container::after{
     position: absolute;
     content: "";
     bottom: 0;
@@ -126,29 +127,29 @@
 }
 
 @media (max-width: 100px) {
-    #header .header_title{
+    #home .header_title{
         font-size: 32px;
     }
 }
 
 @media (max-width: 850px) {
-    #header {
+    #home {
         min-height: auto;
     }
-    #header.blur-effect::before {
+    #home.blur-effect::before {
         display: none;
     }
 
-    #header .header_container {
+    #home .header_container {
         flex-direction: column;
         align-items: stretch;
     }
 
-    #header .intro_text {
+    #home .intro_text {
         font-size: 100px;
     }
 
-    #header .intro_container {
+    #home .intro_container {
         width: 100%;
     }
 

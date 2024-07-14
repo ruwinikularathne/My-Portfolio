@@ -6,7 +6,7 @@ import Typewriter from 'typewriter-effect';
 
 const Header = () => {
     return(
-        <header id='header' className='blur-effect'>
+        <header id='home' className='blur-effect'>
             <div className="stroke_text intro_text">Hello</div>
             <div className="section_wrapper header_container">
                 <div className="column intro_container blur-effect">
