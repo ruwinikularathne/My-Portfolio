@@ -12,11 +12,11 @@
 
 .contact_info p,
 .social_links a {
-    margin: 10px 0;
+    margin: 20px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--color-text);
+    color: var(--color-muted);
     font-size: 1rem;
 }
 
@@ -28,7 +28,8 @@
 .social_links {
     display: flex;
     justify-content: center;
-    gap: 10px;
+    gap: 20px;
+    color: var(--color-muted);
 }
 
 .social_links a {
