@@ -1,8 +1,6 @@
 import {DiReact} from "react-icons/di";
 import {FaNodeJs} from "react-icons/fa";
 import {SiExpress,SiMongodb} from "react-icons/si";
-import { SiFiverr } from "react-icons/si";
-import { AiFillGithub,AiFillLinkedin,AiFillYoutube } from "react-icons/ai";
 import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiAdobexd } from "react-icons/si";
@@ -181,25 +179,3 @@ qualifications, and projects.`,
   ]
   
 
-export const socialHandles = [
-  {
-    name:"Fiverr",
-    icon:<SiFiverr/>,
-    link:"",
-  },
-  {
-    name:"Github",
-    icon:<AiFillGithub/>,
-    link:"",
-  },
-  {
-    name:"LinkedIn",
-    icon:<AiFillLinkedin/>,
-    link:"",
-  },
-  {
-    name:"Youtube",
-    icon:<AiFillYoutube/>,
-    link:"https://www.youtube.com/channel/UCEtnsPZQEd0l1tbr_nDQd5Q?sub_confirmation=1",
-  },
-];

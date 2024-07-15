@@ -37,7 +37,9 @@ const Navbar = () => {
                 ))}
             </div>
             <div className='nav_buttons_group'>
-                <button className='btn btn_primary'>Hire me </button>
+            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='btn btn_primary'>
+                            Hire Me
+                            </Link>
                 <FaBarsStaggered className='menu' onClick={() => setShowSidebar(!showSidebar)} />
             </div>
         </nav>

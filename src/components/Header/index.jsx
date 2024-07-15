@@ -3,6 +3,7 @@ import "./Header.css"
 import {homeru} from "../../images";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'; 
 import Typewriter from 'typewriter-effect';
+import { Link } from 'react-scroll';
 
 const Header = () => {
     return(
@@ -40,7 +41,9 @@ const Header = () => {
                             </div>
                         <div className="header_info_bottom">
                             <button className='btn'>Download CV</button>
-                            <button className='btn'>Contact Me</button>
+                            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='btn'>
+                            Contact Me
+                            </Link>
                         </div>
                     </div>
                 </div>

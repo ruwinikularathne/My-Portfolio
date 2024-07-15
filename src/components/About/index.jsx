@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.css';
 import { nextsec } from '../../images';
+import { Link } from 'react-scroll';
 
 const About = () => {
     return (
@@ -33,10 +34,12 @@ const About = () => {
                             <p>Achievements</p>
                         </div>
                     </div>
-
                     <div className="about_info_bottom">
                             <button className='about_btn'>Download CV</button>
-                            <button className='about_btn'>Contact Me</button>
+                            <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='about_btn'>
+                            Contact Me
+                            </Link>
+
                         </div>
                         
                 </div>
