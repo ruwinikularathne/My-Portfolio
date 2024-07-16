@@ -47,3 +47,24 @@
     font-size: 0.8rem;
     color: var(--color-muted);
 }
+
+@media (max-width: 768px) {
+    .footer_content {
+        padding: 20px;
+    }
+
+    .contact_info p,
+    .social_links a {
+        font-size: 0.9rem;
+        margin: 15px 0;
+    }
+
+    .social_links {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .copyright p {
+        font-size: 0.7rem;
+    }
+}
