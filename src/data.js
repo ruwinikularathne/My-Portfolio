@@ -129,7 +129,7 @@ qualifications, and projects.`,
     },
     {
       id:5,
-      title: 'Mobile bank - App Design',
+      title: 'React Landing page',
       image: 'https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png',
       category:"UI/UX",
       data:{
