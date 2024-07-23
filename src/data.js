@@ -5,6 +5,8 @@ import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
 import { SiAdobexd } from "react-icons/si";
 
+import pro1 from "./images/pro1.png";
+
 export const menu = [
     {name:"Home"},
     {name:"About"},
@@ -18,7 +20,7 @@ export const projects = [
     { 
       id:1,
       title: 'MeterMate',
-      image: 'https://cdn.dribbble.com/userupload/10064191/file/original-091c06a630285b93a5f81e29e882fe3c.png',
+      image: pro1,
       data:{
          description: `A mobile app for self-reading System to electricity bill. `,
          demoLink: "https://google.com/",
