@@ -1,11 +1,6 @@
-export {default as profile1} from "./profile-1.png"
-export {default as profile2} from "./profile-2.jpg"
-export {default as profile3} from "./profile-3.jpeg"
-export {default as profile4} from "./profile-4.jpeg"
-export {default as profile5} from "./profile-5.jpeg"
-export {default as profile6} from "./profile-6.jpeg"
+
 export {default as homeru} from "./home-ru.png"
 export {default as homebw} from "./home-bw.png"
 export {default as nextsec} from "./next-sec.png"
 export {default as nextsec2} from "./next-sec-2.png"
-export {default as pro1} from "./pro-1.png"
+export {default as pro1} from "./pro1.png"
