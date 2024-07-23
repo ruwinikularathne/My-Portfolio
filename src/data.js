@@ -26,9 +26,16 @@ export const projects = [
       },
       stack:[
         {
-          name:"XD",
-          icon: <SiAdobexd/>,
-          iconColor:"skyblue",
+          name:"ReactJs",
+          icon: <DiReact/>,
+        },
+        {
+          name:"Flutter",
+          icon: <DiReact/>,
+        },
+        {
+          name:"Firebase",
+          icon: <DiReact/>,
         },
       ]
     },
@@ -46,27 +53,20 @@ qualifications, and projects.`,
         {
           name:"ReactJs",
           icon: <DiReact/>,
-          iconColor:"skyblue",
         },
         {
-          name:"NodeJs",
+          name:"JavaScript",
           icon: <FaNodeJs/>,
-          iconColor:"green",
         },
         {
-          name:"ExpressJs",
+          name:"Tailwind CSS",
           icon: <SiExpress/>,
-        },
-        {
-          name:"MongoDB",
-          icon: <SiMongodb/>,
-          iconColor:"limegreen",
         },
       ]
     },
     {
       id:3,
-      title: 'Weather App',
+      title: 'Movie Ticket Booking Website',
       image: 'https://s3-alpha.figma.com/hub/file/5101537097/c4a1ed2c-4ab9-43fb-a248-d7ac6b0c3161-cover.png',
       category:"Web",
       data:{
@@ -76,29 +76,18 @@ qualifications, and projects.`,
       },
       stack:[
         {
-          name:"ReactJs",
+          name:"Flutter",
           icon: <DiReact/>,
-          iconColor:"skyblue",
         },
         {
-          name:"NodeJs",
+          name:"Firebase",
           icon: <FaNodeJs/>,
-          iconColor:"green",
-        },
-        {
-          name:"ExpressJs",
-          icon: <SiExpress/>,
-        },
-        {
-          name:"MongoDB",
-          icon: <SiMongodb/>,
-          iconColor:"limegreen",
         },
       ]
     },
     {
       id:4,
-      title: 'Project Management application',
+      title: 'Noodly',
       image: 'https://miro.medium.com/v2/resize:fit:1400/1*6iO0wm8q4cByvxY6kB9WiQ.png',
       category:"Apps",
       data:{
@@ -107,29 +96,26 @@ qualifications, and projects.`,
       },
       stack:[
         {
-          name:"React Native",
+          name:"React JS",
           icon: <TbBrandReactNative/>,
-          iconColor:"skyblue",
         },
         {
-          name:"NodeJs",
+          name:"JavaScript",
           icon: <FaNodeJs/>,
-          iconColor:"green",
         },
         {
-          name:"ExpressJs",
+          name:"Tailwind CSS",
           icon: <SiExpress/>,
         },
         {
-          name:"MongoDB",
+          name:"Firebase",
           icon: <SiMongodb/>,
-          iconColor:"limegreen",
         },
       ]
     },
     {
       id:5,
-      title: 'React Landing page',
+      title: 'Weather App',
       image: 'https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png',
       category:"UI/UX",
       data:{
@@ -138,15 +124,18 @@ qualifications, and projects.`,
       },
       stack:[
         {
-          name:"Figma",
+          name:"Flutter",
           icon: <CgFigma/>,
-          iconColor:"orangered",
+        },
+        {
+          name:"Open Weather API",
+          icon: <CgFigma/>,
         },
       ]
     },
     {
       id:6,
-      title: 'Quiz App Development',
+      title: 'Quiz App',
       image: 'https://i.pinimg.com/originals/b3/35/02/b33502e465346ace2a7f1df203d851a3.jpg',
       category:"Apps",
       data:{
@@ -156,23 +145,8 @@ qualifications, and projects.`,
       },
       stack:[
         {
-          name:"React Native",
+          name:"Flutter",
           icon: <TbBrandReactNative/>,
-          iconColor:"skyblue",
-        },
-        {
-          name:"NodeJs",
-          icon: <FaNodeJs/>,
-          iconColor:"green",
-        },
-        {
-          name:"ExpressJs",
-          icon: <SiExpress/>,
-        },
-        {
-          name:"MongoDB",
-          icon: <SiMongodb/>,
-          iconColor:"limegreen",
         },
       ]
     },
