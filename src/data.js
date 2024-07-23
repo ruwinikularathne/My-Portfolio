@@ -66,32 +66,11 @@ qualifications, and projects.`,
     },
     {
       id:3,
-      title: 'Movie Ticket Booking Website',
+      title: 'Noodly',
       image: 'https://s3-alpha.figma.com/hub/file/5101537097/c4a1ed2c-4ab9-43fb-a248-d7ac6b0c3161-cover.png',
       category:"Web",
       data:{
-        description: `An app to identify weather information of a specific location.
-`,
-        demoLink: "https://google.com/",
-      },
-      stack:[
-        {
-          name:"Flutter",
-          icon: <DiReact/>,
-        },
-        {
-          name:"Firebase",
-          icon: <FaNodeJs/>,
-        },
-      ]
-    },
-    {
-      id:4,
-      title: 'Noodly',
-      image: 'https://miro.medium.com/v2/resize:fit:1400/1*6iO0wm8q4cByvxY6kB9WiQ.png',
-      category:"Apps",
-      data:{
-        description: `Simplify project coordination with our intuitive Project Management application. Track tasks, collaborate `,
+        description: `A web application for ordering noodles from a takeaway restaurant with a dynamic menu.`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -114,12 +93,32 @@ qualifications, and projects.`,
       ]
     },
     {
+      id:4,
+      title: 'Movie Ticket Booking Website',
+      image: 'https://miro.medium.com/v2/resize:fit:1400/1*6iO0wm8q4cByvxY6kB9WiQ.png',
+      category:"Apps",
+      data:{
+        description: `A website for booking movie tickets in a theater, focusing on creating an intuitive and responsive user interface `,
+        demoLink: "https://google.com/",
+      },
+      stack:[
+        {
+          name:"Flutter",
+          icon: <DiReact/>,
+        },
+        {
+          name:"Firebase",
+          icon: <FaNodeJs/>,
+        },
+      ]
+    },
+    {
       id:5,
       title: 'Weather App',
       image: 'https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png',
       category:"UI/UX",
       data:{
-        description: `Experience banking at your fingertips with our sleek Mobile Bank app design.`,
+        description: `An app to identify weather information of a specific location.`,
         demoLink: "https://google.com/",
       },
       stack:[
@@ -139,8 +138,7 @@ qualifications, and projects.`,
       image: 'https://i.pinimg.com/originals/b3/35/02/b33502e465346ace2a7f1df203d851a3.jpg',
       category:"Apps",
       data:{
-        description: `Elevate engagement and knowledge retention with our Quiz App 
-                      Development project.`,
+        description: `An App with several quiz questionas and answers.`,
         demoLink: "https://google.com/",
       },
       stack:[
