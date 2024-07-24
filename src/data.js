@@ -6,6 +6,7 @@ import { TbBrandReactNative } from "react-icons/tb";
 import { SiAdobexd } from "react-icons/si";
 
 import pro1 from "./images/pro1.png";
+import pro2 from "./images/pro2.png";
 
 export const menu = [
     {name:"Home"},
@@ -43,7 +44,7 @@ export const projects = [
     {
       id:2,
       title: 'My Portfolio',
-      image: 'https://cdn.dribbble.com/userupload/8002230/file/original-c8eec16edea4d5c836b2bfabe7fbaa5a.jpg',
+      image: pro2,
      data:{
         description:`A Web platform to showcase my professional background,
 qualifications, and projects.`,
