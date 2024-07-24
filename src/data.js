@@ -7,6 +7,10 @@ import { SiAdobexd } from "react-icons/si";
 
 import pro1 from "./images/pro1.png";
 import pro2 from "./images/pro2.png";
+import pro3 from "./images/pro3.png";
+import pro4 from "./images/pro4.png";
+import pro5 from "./images/pro5.png";
+import pro6 from "./images/pro6.png";
 
 export const menu = [
     {name:"Home"},
@@ -68,7 +72,7 @@ qualifications, and projects.`,
     {
       id:3,
       title: 'Noodly',
-      image: 'https://s3-alpha.figma.com/hub/file/5101537097/c4a1ed2c-4ab9-43fb-a248-d7ac6b0c3161-cover.png',
+      image: pro3,
      data:{
         description: `A web application for ordering noodles from a takeaway restaurant with a dynamic menu.`,
         demoLink: "https://google.com/",
@@ -95,7 +99,7 @@ qualifications, and projects.`,
     {
       id:4,
       title: 'Movie Ticket Booking Website',
-      image: 'https://miro.medium.com/v2/resize:fit:1400/1*6iO0wm8q4cByvxY6kB9WiQ.png',
+      image: pro4,
       data:{
         description: `A website for booking movie tickets in a theater, focusing on creating an intuitive and responsive user interface `,
         demoLink: "https://google.com/",
