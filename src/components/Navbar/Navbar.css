@@ -9,6 +9,7 @@
     z-index: 1000; 
 }
 
+
 .navbar_container .logo_container {
     display: flex;
     align-items: flex-end;
@@ -16,6 +17,7 @@
     cursor: pointer;
     font-size: 35px;
 }
+
 
 .navbar_container .tab_group {
     display: flex;

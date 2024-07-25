@@ -3,7 +3,6 @@ import {FaNodeJs} from "react-icons/fa";
 import {SiExpress,SiMongodb} from "react-icons/si";
 import { CgFigma } from "react-icons/cg";
 import { TbBrandReactNative } from "react-icons/tb";
-import { SiAdobexd } from "react-icons/si";
 
 import pro1 from "./images/pro1.png";
 import pro2 from "./images/pro2.png";
@@ -114,7 +113,7 @@ qualifications, and projects.`,
     {
       id:5,
       title: 'Weather App',
-      image: 'https://i.pinimg.com/originals/a0/be/c3/a0bec3706210e6ab28470eee95bf5889.png',
+      image: pro5,
       data:{
         description: `An app to identify weather information of a specific location.`,
         demoLink: "https://google.com/",
@@ -133,7 +132,7 @@ qualifications, and projects.`,
     {
       id:6,
       title: 'Quiz App',
-      image: 'https://i.pinimg.com/originals/b3/35/02/b33502e465346ace2a7f1df203d851a3.jpg',
+      image: pro6,
       data:{
         description: `An App with several quiz questionas and answers.`,
         demoLink: "https://google.com/",

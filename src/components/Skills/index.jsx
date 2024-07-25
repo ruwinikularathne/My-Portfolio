@@ -5,14 +5,14 @@ import { SiFlutter, SiTailwindcss, SiNextdotjs, SiFirebase } from 'react-icons/s
 
 const Skills = () => {
     const skills = [
-        { icon: <SiFlutter size={80} />, name: 'Flutter' },
         { icon: <FaReact size={80} />, name: 'React' },
+        { icon: <SiFlutter size={80} />, name: 'Flutter' },
         { icon: <SiTailwindcss size={80} />, name: 'Tailwind' },
         { icon: <FaCss3Alt size={80} />, name: 'CSS' },
         { icon: <SiNextdotjs size={80} />, name: 'Next.js' },
         { icon: <FaJs size={80} />, name: 'JavaScript' },
-        { icon: <SiFirebase size={80} />, name: 'Firebase' },
-        { icon: <FaDatabase size={80} />, name: 'MySQL' }
+        { icon: <FaDatabase size={80} />, name: 'MySQL' },
+        { icon: <SiFirebase size={80} />, name: 'Firebase' }
     ];
 
     return (

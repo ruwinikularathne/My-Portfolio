@@ -15,7 +15,7 @@ const Navbar = () => {
                 <div className='overlay' onClick={() => setShowSidebar(!showSidebar)}></div>
             )}
             <div className='logo_container'>
-                <SiWebmoney />
+                
             </div>
             <div className={`tab_group ${showSidebar ? 'show' : ''}`}>
                 <span className="icon_container close_btn" onClick={() => setShowSidebar(!showSidebar)}>
