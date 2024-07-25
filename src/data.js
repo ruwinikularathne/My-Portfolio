@@ -87,10 +87,6 @@ qualifications, and projects.`,
           icon: <FaNodeJs/>,
         },
         {
-          name:"Tailwind CSS",
-          icon: <SiExpress/>,
-        },
-        {
           name:"Firebase",
           icon: <SiMongodb/>,
         },
