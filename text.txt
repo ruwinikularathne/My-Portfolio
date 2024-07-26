@@ -1,6 +1,6 @@
 
 ------------------------------------------------------------------------------------
-Header Info: Hello, I'm Ruwini Kularathne. 
+Header Info: Hello, I'm Ruwini Kularathne
 Header Info Middle: I'm A Web Developer, UI/UX Designer
 ------------------------------------------------------------------------------------
 
