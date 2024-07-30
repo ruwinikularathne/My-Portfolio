@@ -1,6 +1,6 @@
-import React from 'react'
-import "./Header.css"
-import {homeru} from "../../images";
+import React from 'react';
+import "./Header.css";
+import { homeru } from "../../images";
 import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from 'react-icons/fa'; 
 import Typewriter from 'typewriter-effect';
 import { Link } from 'react-scroll';
@@ -40,7 +40,7 @@ const Header = () => {
                                 </a>
                             </div>
                         <div className="header_info_bottom">
-                            <button className='btn'>Download CV</button>
+                            <a href="/Software Engineer Internship-Frontend_Ruwini Kularathne_CV.pdf" download className='btn'>Download CV</a>
                             <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='btn'>
                             Contact Me
                             </Link>
@@ -49,13 +49,12 @@ const Header = () => {
                 </div>
                 <div className="column profile_wrapper">
                      <div className="profile_photo_container">
-                        <img src={homeru} className='profile_photo' alt="" />
+                        <img src={homeru} className='profile_photo' alt="Ruwini Kularathne" />
                     </div>
                 </div>
              </div>
         </header>
-        
     )
 }
 
-export default Header
+export default Header;

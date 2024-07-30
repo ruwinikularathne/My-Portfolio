@@ -35,7 +35,7 @@ const About = () => {
                         </div>
                     </div>
                     <div className="about_info_bottom">
-                            <button className='about_btn'>Download CV</button>
+                            <a href="/Software Engineer Internship-Frontend_Ruwini Kularathne_CV.pdf" download className='about_btn'>Download CV</a>
                             <Link to="contact" spy={true} smooth={true} offset={-70} duration={500} className='about_btn'>
                             Contact Me
                             </Link>
