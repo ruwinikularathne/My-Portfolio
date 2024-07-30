@@ -21,7 +21,8 @@ export const projects = [
       image: pro1,
       data:{
          description: `A mobile app for self-reading System to electricity bill. `,
-         demoLink: "https://google.com/",
+         github: "https://github.com/ruwinikularathne/MeterMate",      
+         figma: "https://www.figma.com/design/9FTDSHjDf8aogp8M6hMGbo/Sanity-Sketching-Kit-(Community)?node-id=436-2301&t=BB4YbfBlNbVihhP4-0", 
       },
       stack:[
         {
@@ -41,8 +42,9 @@ export const projects = [
       image: pro2,
      data:{
         description:`A Web platform to showcase my professional background,
-qualifications, and projects.`,
-        demoLink: "https://google.com/",
+                      qualifications, and projects.`,
+        github: "https://github.com/ruwinikularathne/My-Portfolio",
+        website: "https://ruwinikularathne.github.io/",
       },
       stack:[
         {
@@ -59,7 +61,7 @@ qualifications, and projects.`,
       image: pro3,
      data:{
         description: `A web application for ordering noodles from a takeaway restaurant with a dynamic menu.`,
-        demoLink: "https://google.com/",
+        github: "https://github.com/ruwinikularathne/noodly-web-app",
       },
       stack:[
         {
@@ -76,7 +78,7 @@ qualifications, and projects.`,
       image: pro4,
       data:{
         description: `A website for booking movie tickets in a theater, focusing on creating an intuitive and responsive user interface `,
-        demoLink: "https://google.com/",
+        github: "https://github.com/isurubandara1/MoviesTicketBooking_Website",
       },
       stack:[
         {
@@ -93,7 +95,7 @@ qualifications, and projects.`,
       image: pro5,
       data:{
         description: `An app to identify weather information of a specific location.`,
-        demoLink: "https://google.com/",
+        github: "https://github.com/ruwinikularathne/flutterweatherapp",
       },
       stack:[
         {
@@ -110,7 +112,7 @@ qualifications, and projects.`,
       image: pro6,
       data:{
         description: `A travel website to explore destinations, book travel packages, and read travel guides.`,
-        demoLink: "https://google.com/",
+        github: "https://github.com/ruwinikularathne/travel-web",
       },
       stack:[
         {
