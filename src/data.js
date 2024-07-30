@@ -1,9 +1,3 @@
-import {DiReact} from "react-icons/di";
-import {FaNodeJs} from "react-icons/fa";
-import {SiExpress,SiMongodb} from "react-icons/si";
-import { CgFigma } from "react-icons/cg";
-import { TbBrandReactNative } from "react-icons/tb";
-
 import pro1 from "./images/pro1.png";
 import pro2 from "./images/pro2.png";
 import pro3 from "./images/pro3.png";
@@ -31,16 +25,13 @@ export const projects = [
       },
       stack:[
         {
-          name:"ReactJs",
-          icon: <DiReact/>,
+          name:"React Js",
         },
         {
           name:"Flutter",
-          icon: <DiReact/>,
         },
         {
           name:"Firebase",
-          icon: <DiReact/>,
         },
       ]
     },
@@ -55,16 +46,10 @@ qualifications, and projects.`,
       },
       stack:[
         {
-          name:"ReactJs",
-          icon: <DiReact/>,
+          name:"React Js",
         },
         {
           name:"JavaScript",
-          icon: <FaNodeJs/>,
-        },
-        {
-          name:"Tailwind CSS",
-          icon: <SiExpress/>,
         },
       ]
     },
@@ -79,15 +64,9 @@ qualifications, and projects.`,
       stack:[
         {
           name:"React JS",
-          icon: <TbBrandReactNative/>,
         },
         {
           name:"JavaScript",
-          icon: <FaNodeJs/>,
-        },
-        {
-          name:"Firebase",
-          icon: <SiMongodb/>,
         },
       ]
     },
@@ -102,11 +81,9 @@ qualifications, and projects.`,
       stack:[
         {
           name:"Flutter",
-          icon: <DiReact/>,
         },
         {
           name:"Firebase",
-          icon: <FaNodeJs/>,
         },
       ]
     },
@@ -121,26 +98,26 @@ qualifications, and projects.`,
       stack:[
         {
           name:"Flutter",
-          icon: <CgFigma/>,
         },
         {
           name:"Open Weather API",
-          icon: <CgFigma/>,
         },
       ]
     },
     {
       id:6,
-      title: 'Quiz App',
+      title: 'Travel Website',
       image: pro6,
       data:{
-        description: `An App with several quiz questionas and answers.`,
+        description: `A travel website to explore destinations, book travel packages, and read travel guides.`,
         demoLink: "https://google.com/",
       },
       stack:[
         {
-          name:"Flutter",
-          icon: <TbBrandReactNative/>,
+          name:"React JS",
+        },
+        {
+          name:"Tailwind CSS",
         },
       ]
     },
