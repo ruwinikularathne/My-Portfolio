@@ -18,7 +18,7 @@ const Header = () => {
                          <div className="header_info_middle">
                               <h1 className='primary_title header_title'>I'm a <Typewriter
                                     options={{
-                                        strings: ['Web Developer', 'UI/UX Designer'],
+                                        strings: ['Web Developer', 'Frontend Engineer'],
                                         autoStart: true,
                                         loop: true,
                                     }}
