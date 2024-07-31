@@ -20,7 +20,7 @@ const Footer = () => {
                         <FaFacebook size={30} /></a>
                 </div>
                 <div className="copyright">
-                    <p>Copyright © 2024 Ruwini Kularathne. All Rights reserved.</p>
+                    <p>Copyright @ 2024 Ruwini Kularathne. All Rights reserved.</p>
                 </div>
             </div>
         </footer>
