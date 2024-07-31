@@ -24,15 +24,21 @@ const Card = (props) => {
                 </div>
                 <div className="card_details_bottom">
                     <div className="project_links">
-                        <a href={props.data.github} target="_blank" rel="noopener noreferrer">
-                            <FaGithub size={20} />
-                        </a>
-                        <a href={props.data.website} target="_blank" rel="noopener noreferrer">
-                            <FaExternalLinkAlt size={20} />
-                        </a>
-                        <a href={props.data.figma} target="_blank" rel="noopener noreferrer">
-                            <FaFigma size={20} />
-                        </a>
+                        {props.data.github && (
+                            <a href={props.data.github} target="_blank" rel="noopener noreferrer">
+                                <FaGithub size={20} />
+                            </a>
+                        )}
+                        {props.data.website && (
+                            <a href={props.data.website} target="_blank" rel="noopener noreferrer">
+                                <FaExternalLinkAlt size={20} />
+                            </a>
+                        )}
+                        {props.data.figma && (
+                            <a href={props.data.figma} target="_blank" rel="noopener noreferrer">
+                                <FaFigma size={20} />
+                            </a>
+                        )}
                     </div>
                 </div>
             </div>
