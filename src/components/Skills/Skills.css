@@ -39,3 +39,49 @@
     font-weight: 500;
     color: var(--color-text);
 }
+
+@media (max-width: 768px) {
+    #skills {
+        padding: 60px 15px;
+    }
+
+    #skills .skills_container {
+        margin-top: -50px;
+    }
+
+    #skills .skills_grid {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 15px;
+    }
+
+    #skills .skill_card {
+        padding: 15px;
+    }
+
+    #skills .skill_card p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    #skills {
+        padding: 40px 10px;
+    }
+
+    #skills .skills_container {
+        margin-top: -30px;
+    }
+
+    #skills .skills_grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 10px;
+    }
+
+    #skills .skill_card {
+        padding: 10px;
+    }
+
+    #skills .skill_card p {
+        font-size: 12px;
+    }
+}
