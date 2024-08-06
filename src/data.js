@@ -77,8 +77,9 @@ export const projects = [
       title: 'Movie Ticket Booking Website',
       image: pro4,
       data:{
-        description: `A website for booking movie tickets in a theater, focusing on creating an intuitive and responsive user interface `,
+        description: `A website for booking movie tickets in a theater, with an intuitive and responsive user interface. `,
         github: "https://github.com/isurubandara1/MoviesTicketBooking_Website",
+        website: "https://movietickets-3ddad.firebaseapp.com/",
       },
       stack:[
         {
