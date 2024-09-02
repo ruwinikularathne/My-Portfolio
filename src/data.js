@@ -112,15 +112,18 @@ export const projects = [
       title: 'Travel Website',
       image: pro6,
       data:{
-        description: `A travel website to explore destinations, book travel packages, and read travel guides.`,
-        github: "https://github.com/ruwinikularathne/travel-web",
+        description: `A travel website to explore travel destinations in Sri Lanka and book travel packages.`,
+        github: "https://github.com/ruwinikularathne/travel-website.git",
       },
       stack:[
         {
-          name:"React JS",
+          name:"Next.js",
         },
         {
           name:"Tailwind CSS",
+        },
+        {
+          name:"MongoDB",
         },
       ]
     },
