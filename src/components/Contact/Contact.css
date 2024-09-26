@@ -36,6 +36,7 @@
     background: var(--color-ui-1);
     color: var(--color-text);
     font-size: 1rem;
+    resize: none;
 }
 
 .input_group input:focus,
